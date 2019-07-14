@@ -1,0 +1,487 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_bg_alt": "#d58007",
+    "color_primary": "#d58007",
+    "color_secondary": "#000000",
+    "color_borders": "#e9e9e9",
+    "color_text_titles": "#111111",
+    "color_text_general": "#343434",
+    "color_text_alternate": "#7a7a7a",
+    "color_text_buttons": "#ffffff",
+    "color_drawer_background": "#000000",
+    "color_drawer_text": "#ffffff",
+    "color_footer_bg": "#000000",
+    "color_footer_text": "#757575",
+    "typography_headings": "Montserrat,sans-serif",
+    "typography_body": "Raleway,sans-serif",
+    "favicon": "shopify:\/\/shop_images\/Black_Logo_3349063d-be84-4c7f-a368-ca501b0f3622.png",
+    "social_twitter": "",
+    "social_facebook": "https:\/\/www.facebook.com\/Ferno-Grills-249880352316903\/",
+    "social_google": "",
+    "social_youtube": "",
+    "social_vimeo": "",
+    "social_pinterest": "",
+    "social_tumblr": "",
+    "social_instagram": "https:\/\/www.instagram.com\/fernogrills\/",
+    "social_linkedin": "",
+    "social_flickr": "",
+    "social_email": "info@fernogrills.com",
+    "checkout_header_image": "shopify:\/\/shop_images\/mid3-4_2862f9d0-0186-4e88-bcec-af96214a0d14.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/White_Logo_82ec9d3e-de03-4284-85fe-48817b88b175.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#000000",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#000000",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#e9670d",
+    "checkout_button_color": "#d87108",
+    "checkout_error_color": "#6d9dff",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Black_Logo_964aa5f5-1079-463b-9ccc-b392c9f8ad7e.png",
+          "logo_use_inverted": true,
+          "logo-inverted": "shopify:\/\/shop_images\/White_Logo_39a7e0d6-7f8d-4a70-84c8-995ae7739b1e.png",
+          "logo_max_width": "75",
+          "main_linklist": "main-menu",
+          "menu_style": "classic",
+          "menu_text_color": "is-light",
+          "menu_product": "the-ferno-stand-alone-grill-original"
+        }
+      },
+      "kickstarter": {
+        "type": "kickstarter",
+        "settings": {
+          "home-kickstarter-title": "Crowdfunding",
+          "home-kickstarter-subtitle": "Campaign tracker",
+          "home-kickstarter-style": "pie",
+          "home-kickstarter-bg": "",
+          "home-kickstarter-percent": "75",
+          "home-kickstarter-amount": "$1000",
+          "home-kickstarter-backers": "10",
+          "home-kickstarter-url": "https:\/\/www.shopify.com"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "slideshow-1": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          },
+          "slideshow-2": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "slideshow-1",
+          "slideshow-2"
+        ],
+        "settings": {}
+      },
+      "home-product": {
+        "type": "home-product",
+        "settings": {
+          "featured_product": ""
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "settings": {
+          "blog": "news"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_logo": "shopify:\/\/shop_images\/White_Logo_82ec9d3e-de03-4284-85fe-48817b88b175.png",
+          "footer_logo_max_width": "100",
+          "footer_newsletter_enable": true,
+          "footer_linklist": "footer",
+          "footer_payment_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "social_sharing_products": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
+        }
+      },
+      "1538438944392": {
+        "type": "featured-content",
+        "blocks": {
+          "1538438944392-0": {
+            "type": "text",
+            "settings": {
+              "title": "Press",
+              "content": "<p>When I heard about the Ferno - recommended by no less an authority than Steven Raichlen, the world&rsquo;s leading expert on all things grilled - <strong>I<\/strong> had to check it out. - <a href=\"https:\/\/www.forbes.com\/sites\/larryolmsted\/2019\/04\/21\/best-bbq-ever-your-ultimate-grilling-guide-2019\/#aecdfe11cd29\" title=\"https:\/\/www.forbes.com\/sites\/larryolmsted\/2019\/04\/21\/best-bbq-ever-your-ultimate-grilling-guide-2019\/#aecdfe11cd29\">LARRY OLMSTED (forbes.com)<\/a><\/p>\n<p><\/p>\n<p>The standout element is the front-mounted fire wheel, which &mdash; instead of moving the cooking surface up and down, like we&rsquo;ve seen many a time &mdash; cranks the gas burners up and down underneath the cooking surface to adjust the heat level. Now would be a good time to smack your palm against your forehead...<a href=\"https:\/\/www.insidehook.com\/nation\/ferno-grills-new-fire-wheel\" title=\"https:\/\/www.insidehook.com\/nation\/ferno-grills-new-fire-wheel\">-&nbsp;ALEX LAUER (insidehook.com)<\/a><\/p>\n<p><\/p>\n<p>Sleek, tough, and full of innovation, Ferno Grills picks up where larger manufacturers long ago left off...<a href=\"https:\/\/www.independent.com\/news\/2018\/aug\/28\/ferno-grills-are-rolls-royce-outdoor-cooking\/\" title=\"https:\/\/www.independent.com\/news\/2018\/aug\/28\/ferno-grills-are-rolls-royce-outdoor-cooking\/\">- TYLER HAYDEN (Santa Barbara Independent)<\/a><\/p>\n<p><\/p>\n<p>There&rsquo;s a reason why the best kitchen appliances and tools cost more &ndash; it&rsquo;s because they&rsquo;re designed and engineered better, built to last out of better materials. Quality over quantity is a real thing &ndash; instead of buying five or six grills that last only a handful of years, buy one Ferno, it&rsquo;s in it for the long haul...<a href=\"https:\/\/aspiringgentleman.com\/foodwine\/dont-aspire-to-grill-better-actually-grill-better\/\" title=\"https:\/\/aspiringgentleman.com\/foodwine\/dont-aspire-to-grill-better-actually-grill-better\/\">&nbsp;- JUSTIN GRAU (AspiringGentleman.com)<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1538438944392-0"
+        ],
+        "settings": {
+          "home-page-bg": "",
+          "home-page-background-overlay": true
+        }
+      },
+      "1550016029757": {
+        "type": "featured-content",
+        "blocks": {
+          "1550016830325": {
+            "type": "page",
+            "settings": {
+              "show_heading": true,
+              "page": "features-1"
+            }
+          }
+        },
+        "block_order": [
+          "1550016830325"
+        ],
+        "settings": {
+          "home-page-bg": "",
+          "home-page-background-overlay": false
+        }
+      },
+      "1558545573867": {
+        "type": "slideshow",
+        "blocks": {
+          "1558547960614": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MG_6657-4_4ab71396-ddac-4343-b889-052ef407fd9a.jpg",
+              "link": ""
+            }
+          },
+          "1558545573867-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/potatoesandasparagus-2.jpg",
+              "link": ""
+            }
+          },
+          "1558545573867-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MG_6860-5.jpg",
+              "link": ""
+            }
+          },
+          "1558545573867-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MG_6914-6.jpg",
+              "link": ""
+            }
+          },
+          "1558545573867-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/salmon-3.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1558547960614",
+          "1558545573867-0",
+          "1558545573867-3",
+          "1558545573867-1",
+          "1558545573867-2"
+        ],
+        "settings": {}
+      },
+      "1558553175033": {
+        "type": "featured-content",
+        "settings": {
+          "home-page-bg": "",
+          "home-page-background-overlay": false
+        }
+      },
+      "1558555436179": {
+        "type": "client-list",
+        "blocks": {
+          "1558555436179-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AspiringGentleman-300x140.png",
+              "link": ""
+            }
+          },
+          "1558555436179-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/insidehook.jpg",
+              "link": ""
+            }
+          },
+          "1558555436179-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sbindependent.jpg",
+              "link": ""
+            }
+          },
+          "1559861817391": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/forbes.jpg",
+              "link": ""
+            }
+          },
+          "1559862446104": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/uncrate.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1558555436179-0",
+          "1558555436179-1",
+          "1558555436179-2",
+          "1559861817391",
+          "1559862446104"
+        ],
+        "settings": {}
+      },
+      "1558556224633": {
+        "type": "feature-rows",
+        "settings": {}
+      },
+      "1558565165288": {
+        "type": "feature-rows",
+        "blocks": {
+          "1558565165288-0": {
+            "type": "text",
+            "settings": {
+              "home-featured-align": "left-img",
+              "image": "shopify:\/\/shop_images\/MG_6914-6-homepage.jpg",
+              "home-featured-title": "Master the flame.",
+              "home-featured-content": "Get ready to adjust your expectations. Only Ferno Grills have a proprietary firewheel that lets you adjust the height of your burners—and the flame—so you can sear without burning and slow cook to perfection.",
+              "home-featured-btn-label": "Watch Video",
+              "home-featured-btn-url": "shopify:\/\/pages\/the-ferno-grill"
+            }
+          },
+          "1558565189718": {
+            "type": "text",
+            "settings": {
+              "home-featured-align": "right-img",
+              "image": "shopify:\/\/shop_images\/MG_6737-2_c4a0e15d-bacc-4fe9-a089-939f2d882cf1.jpg",
+              "home-featured-title": "Master the grill.",
+              "home-featured-content": "That’s exactly what we set out to do. To reinvent an essential cooking tool that’s been pretty much the same for the last 50 years. We engineered adjustable burner heights, insisted on cast iron grates, and obsessed over every last detail to truly revolutionize the gas grill and make cooking a joy.",
+              "home-featured-btn-label": "Questions? Call (888) 800-1688",
+              "home-featured-btn-url": "tel:888-800-1688"
+            }
+          }
+        },
+        "block_order": [
+          "1558565165288-0",
+          "1558565189718"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "1558565165288",
+      "1558556224633",
+      "1558553175033",
+      "1550016029757",
+      "1558545573867",
+      "1558555436179",
+      "1538438944392"
+    ],
+    "content_for_index2": [
+      "1558565165288",
+      "1558556224633",
+      "1558553175033",
+      "1550016029757",
+      "1558545573867",
+      "1558555436179",
+      "1538438944392"
+    ]
+  },
+  "presets": {
+    "Jumpstart": {
+      "color_body_bg": "#ffffff",
+      "color_body_bg_alt": "#f9f9f9",
+      "color_primary": "#429C80",
+      "color_secondary": "#141414",
+      "color_borders": "#e9e9e9",
+      "color_text_titles": "#111111",
+      "color_text_general": "#343434",
+      "color_text_alternate": "#7a7a7a",
+      "color_text_buttons": "#ffffff",
+      "color_drawer_background": "#000000",
+      "color_drawer_text": "#ffffff",
+      "color_footer_bg": "#000000",
+      "color_footer_text": "#757575",
+      "typography_headings": "Montserrat,sans-serif",
+      "typography_body": "Raleway,sans-serif",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "video": {
+          "type": "video",
+          "settings": {}
+        },
+        "feature-rows": {
+          "type": "feature-rows",
+          "blocks": {
+            "feature-rows-0": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-rows-0"
+          ],
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {}
+        },
+        "kickstarter": {
+          "type": "kickstarter",
+          "settings": {}
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1",
+            "slideshow-2"
+          ],
+          "settings": {}
+        },
+        "faq": {
+          "type": "faq",
+          "blocks": {
+            "faq-0": {
+              "type": "text",
+              "settings": {}
+            },
+            "faq-1": {
+              "type": "text",
+              "settings": {}
+            },
+            "faq-2": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "faq-0",
+            "faq-1",
+            "faq-2"
+          ],
+          "settings": {}
+        },
+        "home-product": {
+          "type": "home-product",
+          "settings": {}
+        },
+        "featured-blog": {
+          "type": "featured-blog",
+          "settings": {
+            "blog": "news"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "blocks": {
+            "featured-content-0": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-content-0"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "video",
+        "feature-rows",
+        "feature-columns",
+        "featured-content",
+        "kickstarter",
+        "faq",
+        "slideshow",
+        "home-product",
+        "featured-blog"
+      ]
+    }
+  }
+}
