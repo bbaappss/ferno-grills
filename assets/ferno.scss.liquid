@@ -1,3 +1,7 @@
+p {
+  color: #757575;
+}
+
 .triple-heat-control-2 {
   background: #FAF2E6;
   padding: 36px 24px;
@@ -61,7 +65,7 @@
   }
 
   .triple-heat-control-2 .content-container {
-    margin: 0 100px;
+    margin: 0 60px;
     max-width: 1320px;
     padding-top: 84px;
     max-width: 1200px;
@@ -75,6 +79,12 @@
   h3 {
     font-size: 38px !important;
     margin-bottom: 24px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .triple-heat-control-2 .content-container {
+    margin: 0 100px;
   }
 }
 
@@ -103,9 +113,7 @@
   z-index: 1;
 }
 
-p {
-  color: #757575;
-}
+
 
 .section-ferno-wheel {
   margin: 36px auto 0;
@@ -116,10 +124,15 @@ p {
   }
 }
 
+@media (min-width: 768px) {
+  .section-ferno-wheel .copy {
+    padding: 0 60px;
+  }
+}
 
 @media (min-width: 1024px) {
   .section-ferno-wheel {
-    align-items: flex-end;
+    align-items: center;
     display: flex;
     margin: 0 60px !important;
     padding-top: 100px;
@@ -127,9 +140,8 @@ p {
     max-width: 1200px;
 
     .copy {
-      min-width: 40vw;
-      max-width: 40vw;
-      padding-top: 12px;
+      min-width: 500px;
+      width: 500px;
     }
 
 
@@ -143,12 +155,11 @@ p {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   .section-ferno-wheel {
     margin: 0 100px !important;
   }
 }
-
 
 .flare-ups {
   background: #FDFBF7;
@@ -165,8 +176,19 @@ p {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width:768px) {
+  .flare-ups {
+    padding-left: 60px;
+    padding-right: 60px;
 
+    h3, p {
+      padding-left: 0 !important;
+      padding-right: 0;
+    } 
+  }
+}
+
+@media (min-width: 1024px) {
   .flare-ups,
   .flare-ups .steps-columns {
     max-width: 90vw;
@@ -312,4 +334,9 @@ background: rgba(0, 0, 0, 0.45);
 
 #shopify-section-footer {
   margin-top: 0 !important;
+}
+@media (min-width: 768px) {
+  .small-only {
+    display: none;
+  }
 }
