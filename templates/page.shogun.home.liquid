@@ -1,3 +1,7 @@
+{{ 'ferno-common.scss.css' | asset_url | stylesheet_tag }}
+{{ 'ferno-home.scss.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 {{ content_for_layout }}
 
 {% include 'shogun-products', content: page %}
@@ -7,7 +11,6 @@ This file can be re-written at any time.
 {% endcomment %}
 
 <style>
-  
   @media (max-width: 768px) {
     main {
       padding-top: 70px;
@@ -176,16 +179,10 @@ This file can be re-written at any time.
       });
 	}
 	toggle_video_modal();
-
-
-
 });
 </script>
 
 <style>
-  
-
-
 /* Video Modal
 -----------------------------------------*/
 .video-modal,
@@ -319,3 +316,16 @@ iframe#youtube {
 	-webkit-transform: translate(0%,0%);
 }
 </style>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    // Global settings:    
+    once: true, // whether animation should happen only once - while scrolling down
+    duration: 600, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    disable: function() {
+      var maxWidth = 1024;
+      return window.innerWidth < maxWidth;
+    }
+  });
+  </script>

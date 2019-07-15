@@ -1,0 +1,163 @@
+p {
+  color: #757575;
+}
+
+h3 {
+  line-height: 1.4 !important;
+}
+
+@media (max-width: 768px) {
+  .image-accent {
+    display: none;
+  }
+}
+
+.image-accent {
+  background: #d58007;
+  top: -12px;
+  right: -12px;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  z-index: 0;
+
+  &.left {
+    left: -12px;
+    right: inherit;
+    height: 140px;
+    width: 120px;
+  }
+
+}
+
+.image-container { 
+  position: relative;
+}
+
+.image-container img {
+  position: relative;
+  z-index: 1;
+}
+
+.section-common-columns {
+  margin: 36px auto 0;
+  position: relative;
+
+  .copy {
+    padding: 0 24px;
+  }
+
+  .ferno-cta-button {
+    margin-bottom: 30px;
+  }
+
+}
+
+.dark-bg {
+  background: #010101;
+  h3,p {
+    color: white !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .section-common-columns .copy {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-common-columns {
+    align-items: center;
+    display: flex;
+    margin: 0 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+
+    + .section-common-columns {
+      padding-top: 0;
+    }
+
+    &.reverse .copy {
+      order: 2;
+      padding: 0 0 0 64px;
+    }
+
+    &.reverse .image-container {
+      order: 1;
+    }
+
+
+    .copy {
+      padding: 0 64px 0 0;
+      min-width: 500px;
+      width: 500px;
+    }
+
+    h3 {
+      font-size: 28px !important;
+    }
+  }
+}
+
+@media (min-width: 1224px) {
+  .section-common-columns {
+    margin: 0 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section-common-columns {
+    margin: 0 auto;
+  }
+}
+
+
+.superior-design-2 {
+  .section-common-columns {
+      margin-top: 0;
+      padding-top: 36px;
+      padding-bottom: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .superior-design-2 .section-common-columns {
+     height: 500px;
+
+     .image-container {
+         z-index: 0;
+     }
+     
+     .image-container img {
+         left: -60px;
+         max-width: 500px;
+         transform: scale(1.5);
+     }
+      
+     .copy {
+         width: auto;
+         z-index: 1;
+     }
+
+  }
+}
+
+@media (min-width: 1024px) {
+  .superior-design-2 .section-common-columns {
+     height: 600px;
+  }
+  .superior-design-2 .section-common-columns.reverse .copy {
+      padding: 0 32px 0 64px;
+      margin-left: -64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .superior-design-2 .section-common-columns.reverse .copy {
+      padding: 0 0 0 64px;
+      margin-left: inherit;
+  }
+}
