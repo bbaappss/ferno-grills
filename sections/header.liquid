@@ -6,7 +6,7 @@
   h3 { 
     font-size: 23px !important;
     font-weight: bold !important;
-	margin-bottom: 12px !important;
+	  margin-bottom: 12px !important;
   }
   
   a.shg-btn {
@@ -33,10 +33,30 @@
   	background: white;
   }
   
+  .nav-bar li a {
+    display: inline;
+  }
+
   .nav-bar li a.btn--dark {
   	background: #d58007 !important;
     color: white !important;
     font-weight: bold;
+  }
+
+  @media (min-width: 901px) {
+    .site-header--classic .nav-bar ul {
+      align-items: center;
+      display: flex;
+      height: 100px;
+    }
+
+    .js .site-header--classic:not(.active) svg path {
+      fill: #fff !important;
+    }
+    
+    .js .site-header--classic.active .site-nav {
+      height: 70px;
+    }
   }
   
 </style>
@@ -112,20 +132,20 @@
             {% endfor %}
             {% unless section.settings.menu_product == blank %}
             <style>
-              @media (max-width: 768px) {
-              	.btn__buy.hide-small {
+              @media (max-width: 973px) {
+              	.btn__buy.hide-from-small {
                 	display: none !important;
                 }
               }
               
-              @media (min-width: 925px){
-                .hide-large {
+              @media (min-width: 972px){
+                .hide-from-large {
                 	display: none;
                 }
               }
             </style>
-            <li class="btn__buy hide-small"><a href="/products/the-ferno-freestanding-grill" class="btn {% if section.settings.menu_style == 'classic' %} btn--small btn--dark {% else %} btn--regular btn--light {% endif %}">Shop {% comment %}{{ all_products[section.settings.menu_product].price | money_without_trailing_zeros }}{% endcomment %}</a></li>
-			      <li class="hide-large">
+            <li class="btn__buy hide-from-small"><a href="/products/the-ferno-freestanding-grill" class="btn {% if section.settings.menu_style == 'classic' %} btn--small btn--dark {% else %} btn--regular btn--light {% endif %}">Shop {% comment %}{{ all_products[section.settings.menu_product].price | money_without_trailing_zeros }}{% endcomment %}</a></li>
+			      <li class="hide-from-large">
                   <a href="/products/the-ferno-freestanding-grill" class="site-nav__link ">Shop</a>
             </li>
             {% endunless %}
