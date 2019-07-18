@@ -293,21 +293,22 @@ iframe#youtube {
 .show-video-modal .video-modal .overlay {
 	opacity: 1.0;
 }
+
 .show-video-modal .video-modal-content {
 	transform: translate(0%,0%);
 	-webkit-transform: translate(0%,0%);
 }
 </style>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
+<script>
+  AOS.init({
     // Global settings:    
     once: true, // whether animation should happen only once - while scrolling down
-    duration: 600, // values from 0 to 3000, with step 50ms
+    duration: 900, // values from 0 to 3000, with step 50ms
     easing: 'ease', // default easing for AOS animations
     disable: function() {
       var maxWidth = 1024;
       return window.innerWidth < maxWidth;
     }
   });
-  </script>
+</script>

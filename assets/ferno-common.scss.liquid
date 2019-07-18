@@ -1,9 +1,20 @@
 p {
   color: #757575;
+  font-size: 19px;
 }
 
-h3 {
-  line-height: 1.4 !important;
+h3 { 
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 38px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -92,12 +103,8 @@ h3 {
 
     .copy {
       padding: 0 64px 0 0;
-      min-width: 500px;
-      width: 500px;
-    }
-
-    h3 {
-      font-size: 28px !important;
+      min-width: 530px;
+      width: 530px;
     }
   }
 }
@@ -159,5 +166,55 @@ h3 {
   .superior-design-2 .section-common-columns.reverse .copy {
       padding: 0 0 0 64px;
       margin-left: inherit;
+  }
+}
+
+.video-container .content-container > span { 
+  margin: 0 auto;
+  margin-bottom: 0px;
+}
+
+.video-container .content-container span.heading { 
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.video-container .content-container span.subheading { 
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 374px) {
+  .video-container .content-container span.heading { 
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .video-container .content-container span.subheading { 
+    font-size: 15px;
+  }
+}
+
+.video-container .content-container span.watch-video {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+
+  .video-container .content-container span.heading { 
+      font-size: 52px;
+      line-height: 1.2;
+  }
+  
+  .video-container .content-container span.subheading { 
+    font-size: 28px;
   }
 }

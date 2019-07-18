@@ -1323,12 +1323,15 @@ body {
 }
 
 .sticky.site-header .site-header__logo {
-
+  align-items: center;
+  display: flex;
   height: 70px;
+  width: auto;
 
   a {
-    height: 45px;
+    height: 50px;
   }
+
   a.site-header__logo-text {
     font-size: 0.8em;
     position: relative;
@@ -1342,10 +1345,15 @@ body {
   }
 
 }
+
+#menu-opener {
+  padding-bottom: 28px;
+}
+
 .sticky.site-header .site-header__logo.use-image {
   top: 0;
-  height: 100%;
 }
+
 .sticky.site-header .nav-bar {
   bottom: 25px;
 }
